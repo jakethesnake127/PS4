@@ -1,0 +1,3 @@
+For PS4, I followed in discussion and deleted the two underscores in the "compute.jl" file. Everything was working pretty smoothly, but I kept getting the error LAPACKException(14) when running 
+      F = svd(transpose(XS));
+I couldn't really figure out how to fix this, so I re-downloaded the PS4 code and was met with a different error. The error said that there was no file "Synthetic-Numerical-CoV-10K-Fibrinolysis.csv," so I just renamed the file in the data folder to Synthetic-Numerical-CoV-10K-Fibrinolysis.csv (as opposed to Synthetic-Numerical-CoV-10K-Fibrinolysis.csv-NoMLabels). This fixed the errors and the code ran smoothly. 
